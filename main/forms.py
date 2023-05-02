@@ -1,5 +1,3 @@
-from django.db.models import DateTimeField
-
 from .models import Task, Reg
 from django.forms import ModelForm, TextInput, Textarea
 

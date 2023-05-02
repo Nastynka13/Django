@@ -1,10 +1,18 @@
 {% extends 'main/base.html' %}
 
 {% block title %}
-Страница про нас
+Оборудование
 {% endblock %}
 
 {% block content %}
-    <h1>О нас</h1>
-    <p>Мы молодцы</p>
+    <h1>Доступное оборудование</h1>
+    <p>Нанолитограф Nanoscribe</p>
+    {% load static %}
+    <img src="{% static 'images/nanoscribe.png' %}" alt="Нанолитограф Nanoscribe"/>
+
+    <p>Атомно-силовой микроскоп NT-MDT</p>
+    <img src="{% static 'images/afm.jpg' %}" alt="Атомно-силовой микроскоп NT-MDT"/>
+
+    <p>Оптический микроскоп</p>
+    <img src="{% static 'images/optical.jpg' %}" alt="Оптический микроскоп"/>
 {% endblock %}
